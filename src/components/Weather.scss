@@ -1,8 +1,8 @@
 
 .weather-widget {
-  min-width: 250px;
+  max-width: 300px;
   font: 400 14px/1.4 Roboto, Arial, sans-serif;
-  margin-bottom: 30px
+  margin: 20px auto
 }
 
 .weather-widget__city-name {

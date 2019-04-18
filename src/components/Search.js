@@ -15,7 +15,6 @@ export default class Search extends Component {
     }
 
     render() {
-        const {location} =  this.props;
         return (
             <div className="Search">
                 <Input
