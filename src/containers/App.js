@@ -6,27 +6,25 @@ import { weatherFetchData, weatherLocation } from "../actions/weather";
 import Search from '../components/Search';
 import Weather from '../components/Weather';
 
-const API_FETCH_URL = '/api/muggers';
-
 class App extends Component {
 
     componentDidMount() {
-        this.props.fetchData(API_FETCH_URL);
+        this.props.fetchData('/weather?q='+this.props.weatherLocation);
     }
 
     handleSearchSubmit = (location) => {
-        console.log('--app--', location);
             this.props.changeLocation(location);
+            this.props.fetchData('/weather?q='+location);
     }
 
     render() {
         return (
             <div className="App">
             <header className="App-header">
-                <Search location={this.props.location}  handleSearchSubmit={this.handleSearchSubmit} />
+                <Search location={this.props.weatherLocation}  handleSearchSubmit={this.handleSearchSubmit} />
             </header>
              <content>
-                 <Weather dataWeather={this.props.weather}/>
+                 <Weather infoWeather={this.props.weatherData} location={this.props.weatherLocation}/>
              </content>
             </div>
         );
@@ -35,8 +33,8 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        location: state.weather,
-        weather: state.weather
+        weatherLocation: state.weather.location,
+        weatherData: state.weather.weatherData
     };
 };
 

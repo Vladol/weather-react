@@ -4,13 +4,13 @@
 export function weatherFetchDataSuccess(weather) {
     return {
         type: "WEATHER_FETCH_DATA_SUCCESS",
-        weather
+        payload: weather
     }
 }
 
 export function weatherFetchData(url) {
     return (dispatch) => {
-        fetch(url)
+        fetch(process.env.REACT_APP_API_URL+url+'&appid='+process.env.REACT_APP_API_SECRET+'&units=metric')
             .then(response => {
             if(!response.ok) {
             throw new Error(response.statusText);
@@ -29,6 +29,6 @@ export function weatherFetchData(url) {
 export function weatherLocation(location) {
     return {
         type: "WEATHER_LOCATION_ADD",
-        location
+        payload: location
     }
 }
