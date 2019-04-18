@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc9f7d2-f953-4730-8420-4f20e5ebf5e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/NoFound.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NoFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Weather.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Weather.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/weather.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +41,7 @@
         <counts>
           <entry key="CSS" value="10" />
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="1629" />
+          <entry key="JavaScript" value="1642" />
           <entry key="PLAIN_TEXT" value="96" />
           <entry key="SCSS" value="78" />
         </counts>
@@ -67,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reducers/weather.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -109,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Weather.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="e#9#49#0" expanded="true" />
               </folding>
@@ -124,7 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NoFound.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <element signature="e#1#26#0" expanded="true" />
               </folding>
@@ -199,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/containers/App.scss" />
         <option value="$PROJECT_DIR$/src/components/Search.scss" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/reducers/weather.js" />
         <option value="$PROJECT_DIR$/src/components/Button.js" />
         <option value="$PROJECT_DIR$/src/components/Loading.js" />
         <option value="$PROJECT_DIR$/src/components/Weather.scss" />
@@ -207,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/components/NoFound.js" />
         <option value="$PROJECT_DIR$/src/components/Search.js" />
         <option value="$PROJECT_DIR$/src/components/Weather.js" />
+        <option value="$PROJECT_DIR$/src/reducers/weather.js" />
       </list>
     </option>
   </component>
@@ -244,35 +240,6 @@
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +281,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553851048788</updated>
       <workItem from="1553851050612" duration="1242000" />
-      <workItem from="1555421480854" duration="26243000" />
+      <workItem from="1555421480854" duration="27712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27485000" />
+    <option name="totallyTimeSpent" value="28954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/weather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -548,22 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NoFound.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NoFound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -576,11 +520,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="e#9#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NoFound.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NoFound.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/weather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

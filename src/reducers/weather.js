@@ -5,7 +5,7 @@ export function weather (state = initialDefault, action) {
         case "WEATHER_FETCH_DATA_SUCCESS":
             return {...state, weatherData: action.payload};
         case "WEATHER_LOCATION_ADD":
-            return {location: action.payload}
+            return {...state, location: action.payload}
         default:
             return state;
     }
